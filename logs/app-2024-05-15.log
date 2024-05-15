@@ -1,0 +1,1796 @@
+ [LOGGER] 2024-05-15 12:48:58.967 AM ERROR : Error in login function: [
+  {
+    "code": "too_small",
+    "minimum": 8,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "String must contain at least 8 character(s)",
+    "path": [
+      "password"
+    ]
+  }
+]
+ [LOGGER] 2024-05-15 12:48:58.972 AM ERROR : ZodError: [
+  {
+    "code": "too_small",
+    "minimum": 8,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "String must contain at least 8 character(s)",
+    "path": [
+      "password"
+    ]
+  }
+]
+    at get error [as error] (file:///D:/belajar/gamelab/capstone%20project/node_modules/zod/lib/index.mjs:587:31)
+    at ZodObject.parse (file:///D:/belajar/gamelab/capstone%20project/node_modules/zod/lib/index.mjs:692:22)
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:4:27)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+ [LOGGER] 2024-05-15 12:49:51.186 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 12:49:51.188 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:26:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 12:50:16.447 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 12:50:16.450 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:26:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 12:51:55.958 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 12:51:55.961 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:26:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 12:52:43.627 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 12:52:43.630 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:27:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 12:54:04.466 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 12:54:04.468 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 12:54:46.816 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 12:54:46.820 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 12:58:25.841 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 12:58:25.844 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 01:01:53.393 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 01:01:53.397 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:38:37)
+ [LOGGER] 2024-05-15 01:02:08.204 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 01:02:08.205 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:20:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 01:03:01.219 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 01:03:01.220 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:38:37)
+ [LOGGER] 2024-05-15 01:04:52.127 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 01:04:52.130 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:20:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 01:10:15.641 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 01:10:15.644 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:17:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 01:11:19.098 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 01:11:19.101 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:17:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 01:12:25.820 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 01:12:25.823 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:17:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 01:13:02.465 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 01:13:02.469 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:17:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:27)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 01:15:09.731 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 01:15:09.735 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 06:38:50.646 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 06:38:50.651 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 06:45:39.059 AM ERROR : Error in login function: data and hash arguments required
+ [LOGGER] 2024-05-15 06:45:39.062 AM ERROR : Error: data and hash arguments required
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:204:25)
+    at compare (file:///D:/belajar/gamelab/capstone%20project/src/utils/bcrypt.js:9:19)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:35:39)
+ [LOGGER] 2024-05-15 06:45:57.651 AM ERROR : Error in login function: data and hash arguments required
+ [LOGGER] 2024-05-15 06:45:57.653 AM ERROR : Error: data and hash arguments required
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:204:25)
+    at compare (file:///D:/belajar/gamelab/capstone%20project/src/utils/bcrypt.js:9:19)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:35:39)
+ [LOGGER] 2024-05-15 06:46:33.962 AM ERROR : Error in login function: data and hash arguments required
+ [LOGGER] 2024-05-15 06:46:33.963 AM ERROR : Error: data and hash arguments required
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:204:25)
+    at compare (file:///D:/belajar/gamelab/capstone%20project/src/utils/bcrypt.js:9:19)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:35:39)
+ [LOGGER] 2024-05-15 06:46:39.122 AM ERROR : Error in login function: data and hash arguments required
+ [LOGGER] 2024-05-15 06:46:39.122 AM ERROR : Error: data and hash arguments required
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:204:25)
+    at compare (file:///D:/belajar/gamelab/capstone%20project/src/utils/bcrypt.js:9:19)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:35:39)
+ [LOGGER] 2024-05-15 06:48:29.729 AM ERROR : Error in login function: data and hash arguments required
+ [LOGGER] 2024-05-15 06:48:29.732 AM ERROR : Error: data and hash arguments required
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:204:25)
+    at compare (file:///D:/belajar/gamelab/capstone%20project/src/utils/bcrypt.js:9:19)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:35:39)
+ [LOGGER] 2024-05-15 06:48:55.739 AM ERROR : Error in login function: data and hash arguments required
+ [LOGGER] 2024-05-15 06:48:55.744 AM ERROR : Error: data and hash arguments required
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at module.exports.promise (D:\belajar\gamelab\capstone project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\belajar\gamelab\capstone project\node_modules\bcrypt\bcrypt.js:204:25)
+    at compare (file:///D:/belajar/gamelab/capstone%20project/src/utils/bcrypt.js:9:19)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:37:39)
+ [LOGGER] 2024-05-15 06:50:46.613 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 06:50:46.616 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:36:32)
+ [LOGGER] 2024-05-15 06:52:11.430 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 06:52:11.432 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:38:37)
+ [LOGGER] 2024-05-15 06:52:19.957 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 06:52:19.961 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 06:52:26.887 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'email')
+ [LOGGER] 2024-05-15 06:52:26.890 AM ERROR : TypeError: Cannot read properties of undefined (reading 'email')
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ [LOGGER] 2024-05-15 06:53:24.968 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 06:53:24.971 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:17:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:10:03.598 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:10:03.601 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:17:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:43:39.011 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:44:07.497 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:17:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:45:19.571 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 07:45:19.576 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:38:37)
+ [LOGGER] 2024-05-15 07:45:26.503 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:45:26.504 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:23:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:46:03.823 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:46:03.824 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:23:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:53:44.050 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:53:44.054 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:23:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:54:20.317 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:54:20.323 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:57:10.495 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:57:10.498 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:25:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:57:32.873 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:57:32.874 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:25:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 07:58:07.627 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 07:58:07.630 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:02:43.902 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:02:43.905 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:03:06.098 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:03:06.102 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:06:37.801 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:06:37.802 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:07:05.291 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:07:05.294 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:07:59.797 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'details')
+ [LOGGER] 2024-05-15 08:07:59.798 AM ERROR : TypeError: Cannot read properties of undefined (reading 'details')
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:8:30)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:08:17.115 AM ERROR : Error in login function: Cannot read properties of undefined (reading 'details')
+ [LOGGER] 2024-05-15 08:08:17.119 AM ERROR : TypeError: Cannot read properties of undefined (reading 'details')
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:8:30)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:11:57.069 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:11:57.072 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:14:33.870 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:14:33.874 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:14:37.315 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:14:37.316 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:14:57.056 AM ERROR : Error in login function: sldsmdskdm
+ [LOGGER] 2024-05-15 08:14:57.059 AM ERROR : Error: sldsmdskdm
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:15:35.008 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:15:35.011 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:15:58.035 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:15:58.039 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:15:59.180 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:15:59.182 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:16:19.168 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:16:19.171 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:27:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:24:46.855 AM ERROR : Error in login function: {"password":["password length must be at least 5 characters long"]}
+ [LOGGER] 2024-05-15 08:24:46.860 AM ERROR : Error: {"password":["password length must be at least 5 characters long"]}
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:25:59.054 AM ERROR : Error in login function: {"password":["password length must be at least 5 characters long"]}
+ [LOGGER] 2024-05-15 08:25:59.058 AM ERROR : Error: {"password":["password length must be at least 5 characters long"]}
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:26:08.247 AM ERROR : Error in login function: {"email":["email must be a valid email"],"password":["password length must be at least 5 characters long"]}
+ [LOGGER] 2024-05-15 08:26:08.250 AM ERROR : Error: {"email":["email must be a valid email"],"password":["password length must be at least 5 characters long"]}
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:28:25.016 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:28:25.020 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:28:43.388 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:28:43.391 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:34:47.499 AM ERROR : Error in login function: {"email":["email must be a valid email"],"password":["password length must be at least 5 characters long"]}
+ [LOGGER] 2024-05-15 08:34:47.502 AM ERROR : Error: {"email":["email must be a valid email"],"password":["password length must be at least 5 characters long"]}
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:36:42.223 AM ERROR : Error in login function: Cannot create property 'password' on string '[object Object]'
+ [LOGGER] 2024-05-15 08:36:42.226 AM ERROR : TypeError: Cannot create property 'password' on string '[object Object]'
+    at file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:19:22
+    at Array.reduce (<anonymous>)
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:16:42)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+ [LOGGER] 2024-05-15 08:37:15.481 AM ERROR : Error in login function: {"email":["email must be a valid email"],"password":["password length must be at least 5 characters long"]}
+ [LOGGER] 2024-05-15 08:37:15.487 AM ERROR : Error: {"email":["email must be a valid email"],"password":["password length must be at least 5 characters long"]}
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:41:26.652 AM ERROR : Error in login function: {"email":["email must be a valid email"]}
+ [LOGGER] 2024-05-15 08:41:26.654 AM ERROR : Error: {"email":["email must be a valid email"]}
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:41:33.967 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 08:41:33.968 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:34:32)
+ [LOGGER] 2024-05-15 08:41:50.151 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 08:41:50.153 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:34:32)
+ [LOGGER] 2024-05-15 08:41:52.548 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 08:41:52.549 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:34:32)
+ [LOGGER] 2024-05-15 08:42:58.416 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 08:42:58.418 AM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:34:32)
+ [LOGGER] 2024-05-15 08:43:14.035 AM ERROR : Error in login function: {"password":["password length must be at least 5 characters long"]}
+ [LOGGER] 2024-05-15 08:43:14.036 AM ERROR : Error: {"password":["password length must be at least 5 characters long"]}
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:49:29.918 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:49:29.921 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:49:40.830 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:49:40.833 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:49:51.422 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:49:51.426 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:49:58.360 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:49:58.363 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:50:04.390 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:50:04.393 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:50:36.830 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:50:36.836 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:50:48.463 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:50:48.465 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:54:14.591 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:54:14.594 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:26:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:54:22.506 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:54:22.513 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 08:54:28.978 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 08:54:28.979 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:24:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 09:28:29.136 AM ERROR : [object Object]
+ [LOGGER] 2024-05-15 09:28:29.142 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:13:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 09:29:05.251 AM ERROR : [object Object]
+ [LOGGER] 2024-05-15 09:29:05.252 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:13:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 09:29:51.541 AM ERROR : [object Object]
+ [LOGGER] 2024-05-15 09:29:51.543 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:13:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 09:30:12.735 AM ERROR : [object Object]
+ [LOGGER] 2024-05-15 09:30:12.736 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:13:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 09:30:41.223 AM ERROR : [object Object]
+ [LOGGER] 2024-05-15 09:30:41.224 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:13:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:03:02.623 AM ERROR : 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    email: "abdultalif85@gmail.com",
+    password: "12345678",
+    confirmPassword: "12345678",
+    ~~~~~~~~~~~~~~~
+    name: "Abdul Talif",
+    no_telp: "567898765",
+    image: "default.png",
+    expireTime: new Date("2024-05-15T03:03:02.609Z"),
+?   id?: String,
+?   isActive?: Boolean,
+?   token?: String | Null,
+?   tokenReset?: String | Null,
+?   createdAt?: DateTime,
+?   updatedAt?: DateTime
+  },
+  select: {
+    id: true,
+    email: true,
+    name: true,
+    no_telp: true,
+    image: true,
+    isActive: true,
+    expireTime: true
+  }
+}
+
+Unknown argument `confirmPassword`. Available options are marked with ?.
+ [LOGGER] 2024-05-15 10:03:02.626 AM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    email: "abdultalif85@gmail.com",
+    password: "12345678",
+    confirmPassword: "12345678",
+    ~~~~~~~~~~~~~~~
+    name: "Abdul Talif",
+    no_telp: "567898765",
+    image: "default.png",
+    expireTime: new Date("2024-05-15T03:03:02.609Z"),
+?   id?: String,
+?   isActive?: Boolean,
+?   token?: String | Null,
+?   tokenReset?: String | Null,
+?   createdAt?: DateTime,
+?   updatedAt?: DateTime
+  },
+  select: {
+    id: true,
+    email: true,
+    name: true,
+    no_telp: true,
+    image: true,
+    isActive: true,
+    expireTime: true
+  }
+}
+
+Unknown argument `confirmPassword`. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:35:24)
+ [LOGGER] 2024-05-15 10:05:35.964 AM ERROR : Cannot read properties of null (reading 'isActive')
+ [LOGGER] 2024-05-15 10:05:35.968 AM ERROR : TypeError: Cannot read properties of null (reading 'isActive')
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:25:24)
+ [LOGGER] 2024-05-15 10:10:58.112 AM ERROR : 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    email: "abdultalif85@gmail.com",
+    name: "Abdul Talif",
+    no_telp: "567898765",
+    image: "default.png",
+    expireTime: new Date("2024-05-15T03:10:58.103Z"),
++   password: String
+  },
+  select: {
+    id: true,
+    email: true,
+    name: true,
+    no_telp: true,
+    image: true,
+    isActive: true,
+    expireTime: true
+  }
+}
+
+Argument `password` is missing.
+ [LOGGER] 2024-05-15 10:10:58.116 AM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    email: "abdultalif85@gmail.com",
+    name: "Abdul Talif",
+    no_telp: "567898765",
+    image: "default.png",
+    expireTime: new Date("2024-05-15T03:10:58.103Z"),
++   password: String
+  },
+  select: {
+    id: true,
+    email: true,
+    name: true,
+    no_telp: true,
+    image: true,
+    isActive: true,
+    expireTime: true
+  }
+}
+
+Argument `password` is missing.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:37:24)
+ [LOGGER] 2024-05-15 10:18:25.339 AM ERROR : Email aldready Activated
+ [LOGGER] 2024-05-15 10:18:25.341 AM ERROR : Error: Email aldready Activated
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:27:23)
+ [LOGGER] 2024-05-15 10:22:22.465 AM ERROR : 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the constraint: `users_email_key`
+ [LOGGER] 2024-05-15 10:22:22.467 AM ERROR : PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the constraint: `users_email_key`
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6877)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:33:24)
+ [LOGGER] 2024-05-15 10:37:42.788 AM ERROR : Email aldready Activated
+ [LOGGER] 2024-05-15 10:37:42.790 AM ERROR : Error: Email aldready Activated
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:27:23)
+ [LOGGER] 2024-05-15 10:38:33.545 AM ERROR : Email aldready Activated
+ [LOGGER] 2024-05-15 10:38:33.548 AM ERROR : Error: Email aldready Activated
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:27:23)
+ [LOGGER] 2024-05-15 10:38:47.021 AM ERROR : Email already registered, please check your email
+ [LOGGER] 2024-05-15 10:38:47.027 AM ERROR : Error: Email already registered, please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:30:23)
+ [LOGGER] 2024-05-15 10:38:53.394 AM ERROR : Email already registered, please check your email
+ [LOGGER] 2024-05-15 10:38:53.397 AM ERROR : Error: Email already registered, please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:30:23)
+ [LOGGER] 2024-05-15 10:38:53.959 AM ERROR : Email already registered, please check your email
+ [LOGGER] 2024-05-15 10:38:53.962 AM ERROR : Error: Email already registered, please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:30:23)
+ [LOGGER] 2024-05-15 10:38:54.521 AM ERROR : Email already registered, please check your email
+ [LOGGER] 2024-05-15 10:38:54.527 AM ERROR : Error: Email already registered, please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:30:23)
+ [LOGGER] 2024-05-15 10:49:39.969 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-15 10:49:39.973 AM ERROR : Error: Email has been registered and please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:31:23)
+ [LOGGER] 2024-05-15 10:53:06.615 AM ERROR : [object Object]
+ [LOGGER] 2024-05-15 10:53:06.619 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:14:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:53:12.334 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-15 10:53:12.336 AM ERROR : Error: Email has been registered and please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:31:23)
+ [LOGGER] 2024-05-15 10:53:24.872 AM ERROR : [object Object]
+ [LOGGER] 2024-05-15 10:53:24.874 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:14:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:53:34.224 AM ERROR : [object Object]
+ [LOGGER] 2024-05-15 10:53:34.225 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:14:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:53:38.240 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-15 10:53:38.244 AM ERROR : Error: Email has been registered and please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:31:23)
+ [LOGGER] 2024-05-15 10:54:06.801 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-15 10:54:06.801 AM ERROR : Error: Email has been registered and is active
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:23)
+ [LOGGER] 2024-05-15 11:22:12.984 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 11:22:12.989 AM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:78:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 11:24:10.309 AM ERROR : Error in forgotPassword function: Email not found
+ [LOGGER] 2024-05-15 11:24:10.311 AM ERROR : Error: Email not found
+    at forgotPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:158:32)
+ [LOGGER] 2024-05-15 02:16:55.348 PM ERROR : uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as get] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:521:19)
+    at file:///D:/belajar/gamelab/capstone%20project/src/router/api.js:12:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 02:17:05.500 PM ERROR : uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:189:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 02:35:18.355 PM ERROR : Error in validToken function: Expired Token
+ [LOGGER] 2024-05-15 02:35:18.359 PM ERROR : Error: Expired Token
+    at validToken (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:204:40)
+ [LOGGER] 2024-05-15 02:35:59.533 PM ERROR : Error in validToken function: Expired Token
+ [LOGGER] 2024-05-15 02:35:59.535 PM ERROR : Error: Expired Token
+    at validToken (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:204:40)
+ [LOGGER] 2024-05-15 02:36:00.827 PM ERROR : Error in validToken function: Expired Token
+ [LOGGER] 2024-05-15 02:36:00.829 PM ERROR : Error: Expired Token
+    at validToken (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:204:40)
+ [LOGGER] 2024-05-15 02:36:01.916 PM ERROR : Error in validToken function: Expired Token
+ [LOGGER] 2024-05-15 02:36:01.918 PM ERROR : Error: Expired Token
+    at validToken (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:204:40)
+ [LOGGER] 2024-05-15 02:48:17.575 PM ERROR : Error in validToken function: Invalid Token
+ [LOGGER] 2024-05-15 02:48:17.577 PM ERROR : Error: Invalid Token
+    at validToken (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:198:32)
+ [LOGGER] 2024-05-15 04:05:48.660 PM ERROR : Error in reset password function: prisma.update is not a function
+ [LOGGER] 2024-05-15 04:05:48.665 PM ERROR : TypeError: prisma.update is not a function
+    at resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:37)
+ [LOGGER] 2024-05-15 04:06:12.332 PM ERROR : Error in reset password function: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  data: {
+    tokenForgot: null,
+    ~~~~~~~~~~~
+    password: "123456789",
+?   id?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   no_telp?: String | StringFieldUpdateOperationsInput,
+?   image?: String | StringFieldUpdateOperationsInput,
+?   isActive?: Boolean | BoolFieldUpdateOperationsInput,
+?   expireTime?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   token?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   tokenReset?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput
+  },
+  where: {
+    tokenForgot: "1d525abf-1ccf-4379-9c91-9d166535aef2"
+  },
+  select: {
+    email: true
+  }
+}
+
+Unknown argument `tokenForgot`. Available options are marked with ?.
+ [LOGGER] 2024-05-15 04:06:12.337 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  data: {
+    tokenForgot: null,
+    ~~~~~~~~~~~
+    password: "123456789",
+?   id?: String | StringFieldUpdateOperationsInput,
+?   email?: String | StringFieldUpdateOperationsInput,
+?   name?: String | StringFieldUpdateOperationsInput,
+?   no_telp?: String | StringFieldUpdateOperationsInput,
+?   image?: String | StringFieldUpdateOperationsInput,
+?   isActive?: Boolean | BoolFieldUpdateOperationsInput,
+?   expireTime?: DateTime | NullableDateTimeFieldUpdateOperationsInput | Null,
+?   token?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   tokenReset?: String | NullableStringFieldUpdateOperationsInput | Null,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput
+  },
+  where: {
+    tokenForgot: "1d525abf-1ccf-4379-9c91-9d166535aef2"
+  },
+  select: {
+    email: true
+  }
+}
+
+Unknown argument `tokenForgot`. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:24)
+ [LOGGER] 2024-05-15 04:07:19.628 PM ERROR : Error in reset password function: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+ [LOGGER] 2024-05-15 04:07:19.632 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:24)
+ [LOGGER] 2024-05-15 04:08:55.529 PM ERROR : Error in reset password function: Token invalid or token expired
+ [LOGGER] 2024-05-15 04:08:55.534 PM ERROR : Error: Token invalid or token expired
+    at resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:222:32)
+ [LOGGER] 2024-05-15 04:09:45.569 PM ERROR : Error in reset password function: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+ [LOGGER] 2024-05-15 04:09:45.573 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:24)
+ [LOGGER] 2024-05-15 04:11:43.968 PM ERROR : Error in reset password function: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+ [LOGGER] 2024-05-15 04:11:43.971 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:24)
+ [LOGGER] 2024-05-15 04:15:22.855 PM ERROR : Error in reset password function: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+ [LOGGER] 2024-05-15 04:15:22.858 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:24)
+ [LOGGER] 2024-05-15 04:21:43.344 PM ERROR : Error in reset password function: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    password: "123456789"
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+ [LOGGER] 2024-05-15 04:21:43.349 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    password: "123456789"
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:24)
+ [LOGGER] 2024-05-15 04:22:09.902 PM ERROR : Error in reset password function: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+ [LOGGER] 2024-05-15 04:22:09.906 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    tokenReset: "1d525abf-1ccf-4379-9c91-9d166535aef2",
+?   id?: String,
+?   email?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   password?: StringFilter | String,
+?   name?: StringFilter | String,
+?   no_telp?: StringFilter | String,
+?   image?: StringFilter | String,
+?   isActive?: BoolFilter | Boolean,
+?   expireTime?: DateTimeNullableFilter | DateTime | Null,
+?   token?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime
+  },
+  data: {
+    tokenReset: null,
+    password: "123456789"
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:24)
+ [LOGGER] 2024-05-15 04:28:29.183 PM ERROR : Error in reset password function: Token invalid or token expired
+ [LOGGER] 2024-05-15 04:28:29.185 PM ERROR : Error: Token invalid or token expired
+    at resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:223:32)
+ [LOGGER] 2024-05-15 04:28:49.405 PM ERROR : Error in reset password function: [object Object]
+ [LOGGER] 2024-05-15 04:28:49.405 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:35)
+ [LOGGER] 2024-05-15 04:28:58.541 PM ERROR : Error in reset password function: [object Object]
+ [LOGGER] 2024-05-15 04:28:58.542 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:225:35)
+ [LOGGER] 2024-05-15 04:30:49.838 PM ERROR : Error in reset password function: Token invalid or token expired
+ [LOGGER] 2024-05-15 04:30:49.841 PM ERROR : Error: Token invalid or token expired
+    at resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:223:32)
+ [LOGGER] 2024-05-15 04:31:01.811 PM ERROR : Error in reset password function: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    email: "abdultalif85@gmail.com"
+  },
+  data: {
+    tokenReset: null,
+    password: {}
+              ~~
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+ [LOGGER] 2024-05-15 04:31:01.812 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.user.update()` invocation:
+
+{
+  where: {
+    email: "abdultalif85@gmail.com"
+  },
+  data: {
+    tokenReset: null,
+    password: {}
+              ~~
+  },
+  select: {
+    email: true
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async resetPassword (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:226:24)
+ [LOGGER] 2024-05-15 05:07:51.289 PM ERROR : uncaughtException: Cannot access 'app' before initialization
+ReferenceError: Cannot access 'app' before initialization
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:29:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 05:08:46.897 PM ERROR : uncaughtException: Cannot access 'app' before initialization
+ReferenceError: Cannot access 'app' before initialization
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:29:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 05:10:03.676 PM ERROR : uncaughtException: Cannot access 'app' before initialization
+ReferenceError: Cannot access 'app' before initialization
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:30:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:06:33.730 PM ERROR : uncaughtException: readfileSync is not defined
+ReferenceError: readfileSync is not defined
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:17:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:07:07.869 PM ERROR : uncaughtException: readfileSync is not defined
+ReferenceError: readfileSync is not defined
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:17:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:07:15.984 PM ERROR : uncaughtException: resolve is not defined
+ReferenceError: resolve is not defined
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:17:32
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:14:20.946 PM ERROR : uncaughtException: Unexpected token ] in JSON at position 522
+SyntaxError: Unexpected token ] in JSON at position 522
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:14:28.127 PM ERROR : uncaughtException: Unexpected token ] in JSON at position 522
+SyntaxError: Unexpected token ] in JSON at position 522
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:14:32.518 PM ERROR : uncaughtException: Unexpected token ] in JSON at position 522
+SyntaxError: Unexpected token ] in JSON at position 522
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:14:50.864 PM ERROR : uncaughtException: Unexpected token ] in JSON at position 522
+SyntaxError: Unexpected token ] in JSON at position 522
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:17:42.098 PM ERROR : uncaughtException: Unexpected token ] in JSON at position 396
+SyntaxError: Unexpected token ] in JSON at position 396
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:26:58.200 PM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 09:26:58.207 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:79:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 09:27:07.676 PM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 09:27:07.677 PM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:91:37)
+ [LOGGER] 2024-05-15 09:27:16.211 PM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 09:27:16.211 PM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:91:37)
+ [LOGGER] 2024-05-15 09:33:00.056 PM ERROR : uncaughtException: Unexpected token } in JSON at position 3629
+SyntaxError: Unexpected token } in JSON at position 3629
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:37:45.687 PM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-15 09:37:45.691 PM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:91:37)
+ [LOGGER] 2024-05-15 09:40:13.611 PM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-15 09:40:13.615 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:79:33)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 09:42:57.919 PM ERROR : uncaughtException: Unexpected token , in JSON at position 27918
+SyntaxError: Unexpected token , in JSON at position 27918
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:46:10.494 PM ERROR : uncaughtException: Unexpected token : in JSON at position 6279
+SyntaxError: Unexpected token : in JSON at position 6279
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 09:49:02.567 PM ERROR : uncaughtException: Unexpected token [ in JSON at position 6209
+SyntaxError: Unexpected token [ in JSON at position 6209
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 10:22:31.695 PM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-15 10:22:31.702 PM ERROR : Error: Email has been registered and is active
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:29:23)
+ [LOGGER] 2024-05-15 10:42:33.750 PM ERROR : [object Object]
+ [LOGGER] 2024-05-15 10:42:33.756 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:15:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:42:53.543 PM ERROR : [object Object]
+ [LOGGER] 2024-05-15 10:42:53.544 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:15:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:43:48.560 PM ERROR : [object Object]
+ [LOGGER] 2024-05-15 10:43:48.568 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:15:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:53:01.486 PM ERROR : [object Object]
+ [LOGGER] 2024-05-15 10:53:01.491 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:15:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:53:10.693 PM ERROR : [object Object]
+ [LOGGER] 2024-05-15 10:53:10.697 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:15:36)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+ [LOGGER] 2024-05-15 10:53:56.682 PM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-15 10:53:56.683 PM ERROR : Error: Email has been registered and please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:31:23)
+ [LOGGER] 2024-05-15 10:57:15.786 PM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-15 10:57:15.789 PM ERROR : Error: Email has been registered and is active
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:29:23)
+ [LOGGER] 2024-05-15 11:06:32.046 PM ERROR : uncaughtException: Unexpected token } in JSON at position 18716
+SyntaxError: Unexpected token } in JSON at position 18716
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 11:11:57.891 PM ERROR : uncaughtException: Unexpected token , in JSON at position 20962
+SyntaxError: Unexpected token , in JSON at position 20962
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 11:12:16.032 PM ERROR : uncaughtException: Unexpected token , in JSON at position 20864
+SyntaxError: Unexpected token , in JSON at position 20864
+    at JSON.parse (<anonymous>)
+    at file:///D:/belajar/gamelab/capstone%20project/index.js:13:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-05-15 11:33:35.273 PM ERROR : Error in validToken function: Invalid Token
+ [LOGGER] 2024-05-15 11:33:35.277 PM ERROR : Error: Invalid Token
+    at validToken (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:199:32)
+ [LOGGER] 2024-05-15 11:49:05.305 PM ERROR : Error in validToken function: Invalid Token Reset Password
+ [LOGGER] 2024-05-15 11:49:05.309 PM ERROR : Error: Invalid Token Reset Password
+    at validToken (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:199:32)
