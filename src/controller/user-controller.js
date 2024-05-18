@@ -41,7 +41,7 @@ const register = async (req, res, next) => {
                 name: userRegister.name,
                 password: password,
                 no_telp: userRegister.no_telp,
-                image: 'default.png',
+                image: 'default.jpg',
                 expireTime: new Date()
             },
             select: {
@@ -80,7 +80,10 @@ const login = async (req, res, next) => {
             select: {
                 id: true,
                 email: true,
-                password: true
+                password: true,
+                name: true,
+                no_telp: true,
+                image: true
             }
         });
 
@@ -131,11 +134,10 @@ const logout = async (req, res, next) => {
         const result = await prisma.user.update({
             data: { token: null },
             where: { email: email },
-            select: { id: true, email: true, name: true }
         });
         res.status(200).json({
             message: `User logged out successfully: ${result.email}`,
-            data: result
+            data: null
         })
         logger.info(`User logged out successfully: ${result.email}`);
     } catch (error) {
@@ -174,7 +176,7 @@ const forgotPassword = async (req, res, next) => {
 
             res.status(200).json({
                 message: `Please check your email: ${result.email}`,
-                data: result
+                data: null
             });
             logger.info(`Please check your email: ${result.email}`);
         }
