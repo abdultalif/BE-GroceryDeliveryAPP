@@ -1,0 +1,608 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Grocery Delivery APP - RESTful API Documentation",
+        "version": "1.0.0",
+        "description": "Halaman ini untuk mendokumentasi RESTful API dari aplikasi Grocery Delivery APP"
+    },
+    "tags": [
+        {
+            "name": "Auth",
+            "description": "API ini untuk mengelola auth resources"
+        }
+    ],
+    "servers": [
+        {
+            "url": "http://localhost:3000"
+        }
+    ],
+    "paths": {
+        "/api-public/login": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "REST API untuk login",
+                "description": "API ini digunakan ketika user ingin login",
+                "requestBody": {
+                    "description": "request body ini digunakan ketika user ingin login",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "description": "Email user",
+                                        "example": "abdultalif85@gmail.com"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "description": "Password user",
+                                        "example": "12345"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "User logged in successfully: abdultalif85@gmail.com"
+                                        },
+                                        "data": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "type": "string",
+                                                    "example": "fc3a6232-293a-48be-aad6-0c10c54972bd"
+                                                },
+                                                "email": {
+                                                    "type": "string",
+                                                    "example": "abdultalif85@gmail.com"
+                                                },
+                                                "name": {
+                                                    "type": "string",
+                                                    "example": "Abdul Talif Parinduri"
+                                                },
+                                                "no_telp": {
+                                                    "type": "string",
+                                                    "example": "081234567890"
+                                                },
+                                                "image": {
+                                                    "type": "string",
+                                                    "example": "default.png"
+                                                },
+                                                "token": {
+                                                    "type": "string",
+                                                    "example": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZjM2E2MjMyLTI5M2EtNDhiZS1hYWQ2LTBjMTBjNTQ5NzJiZCIsImVtYWlsIjoiYWJkdWx0YWxpZjg1QGdtYWlsLmNvbSIsImlhdCI6MTcxNTc4MzI0MywiZXhwIjoxNzE1Nzg1MDQzfQ.wRJ2rbyXxULSwgsHdALNROsbGAqEj2CSfWF66K950CQ"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "example": "Email or Password Wrong"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "properties": {
+                                                "email": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "email must be a valid email"
+                                                    ]
+                                                },
+                                                "password": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "password length must be at least 5 characters long"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api-public/register": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "API untuk register",
+                "description": "API ini digunakan ketika user ingin register",
+                "requestBody": {
+                    "description": "request body untuk user register",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string",
+                                        "description": "Nama user",
+                                        "example": "Abdul Talif"
+                                    },
+                                    "email": {
+                                        "type": "string",
+                                        "description": "Email user",
+                                        "example": "abdultalif85@gmail.com"
+                                    },
+                                    "no_telp": {
+                                        "type": "string",
+                                        "description": "Nomor Handphone user",
+                                        "example": "081234567890"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "description": "Password user",
+                                        "example": "12345678"
+                                    },
+                                    "confirmPassword": {
+                                        "type": "string",
+                                        "description": "Confirm Password user",
+                                        "example": "12345678"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "User created, please check your email"
+                                        },
+                                        "data": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "type": "string",
+                                                    "example": "fc3a6232-293a-48be-aad6-0c10c54972bd"
+                                                },
+                                                "email": {
+                                                    "type": "string",
+                                                    "example": "abdultalif85@gmail.com"
+                                                },
+                                                "name": {
+                                                    "type": "string",
+                                                    "example": "Abdul Talif Parinduri"
+                                                },
+                                                "no_telp": {
+                                                    "type": "string",
+                                                    "example": "081234567890"
+                                                },
+                                                "image": {
+                                                    "type": "string",
+                                                    "example": "default.png"
+                                                },
+                                                "isActive": {
+                                                    "type": "boolean",
+                                                    "example": false
+                                                },
+                                                "expireTime": {
+                                                    "type": "datetime",
+                                                    "example": "2024-05-15T15:32:07.000Z"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "properties": {
+                                                "email": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "email must be a valid email"
+                                                    ]
+                                                },
+                                                "name": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "name is not allowed to be empty"
+                                                    ]
+                                                },
+                                                "no_telp": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "no_telp length must be at least 10 characters long"
+                                                    ]
+                                                },
+                                                "image": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "image is not allowed to be empty"
+                                                    ]
+                                                },
+                                                "password": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "password length must be at least 5 characters long"
+                                                    ]
+                                                },
+                                                "confirmPassword": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "confirmPassword must be [ref:password]"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Tidak dapat diproses",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "example": "Email has been registered and please check your email"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "409": {
+                        "description": "Coflict",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "example": "Email has been registered and is active"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api-public/forgot-password": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "API untuk lupa password",
+                "description": "API ini digunakan ketika user lupa password",
+                "requestBody": {
+                    "description": "request body untuk user memverifikasi email",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "description": "Email user",
+                                        "example": "abdultalif85@gmail.com"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Please check your email: abdultalif85@gmail.com"
+                                        },
+                                        "data": {
+                                            "type": null,
+                                            "example": null
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "properties": {
+                                                "email": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "email must be a valid email"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "example": "email not found"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api-public/valid-token/{token}": {
+            "get": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "API untuk cek token reset password yang di kirim lewat email",
+                "description": "API ini digunakan ketika user ingin mendapatkan email setelah mengisi form forgot password",
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Token reset password",
+                            "example": "d043cfaa-e521-42f4-8d53-96ba8b0eb7ed"
+                        },
+                        "description": "Token reset password"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Token forgot password Valid"
+                                        },
+                                        "data": {
+                                            "type": null,
+                                            "example": null
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "example": "Expired Token Reset Password"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "example": "Invalid Token Reset Password"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api-public/reset-password/{token}": {
+            "patch": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "API untuk mereset password",
+                "description": "API ini digunakan untuk user mereset password",
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Token reset password",
+                            "example": "d043cfaa-e521-42f4-8d53-96ba8b0eb7ed"
+                        },
+                        "description": "Token reset password"
+                    }
+                ],
+                "requestBody": {
+                    "description": "request body untuk user mereset password",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "newPassword": {
+                                        "type": "string",
+                                        "description": "Password user",
+                                        "example": "password"
+                                    },
+                                    "confirmPassword": {
+                                        "type": "string",
+                                        "description": "Confirm password user",
+                                        "example": "password"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Thank you for resetting your password!"
+                                        },
+                                        "data": {
+                                            "type": null,
+                                            "example": null
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "properties": {
+                                                "newPassword": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "newPassword length must be at least 5 characters long"
+                                                    ]
+                                                },
+                                                "confirmPassword": {
+                                                    "type": "string",
+                                                    "example": [
+                                                        "confirmPassword must be [ref:newPassword]"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "example": "Token invalid or token expired"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "bearerToken": {
+                "type": "http",
+                "scheme": "bearer"
+            }
+        }
+    }
+}

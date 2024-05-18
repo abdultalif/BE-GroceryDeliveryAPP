@@ -1,5 +1,4 @@
-import { PrismaClient } from "@prisma/client";
-import logger from "../middleware/logging-middleware.js";
+import logger from "../app/logging.js";
 import { forgotPasswordValidation, loginValidation, registerValidation, resetPasswordValidation } from "../validation/user-validation.js";
 import { validate } from "../validation/validation.js";
 import { ResponseError } from "../error/response-error.js";
@@ -7,8 +6,7 @@ import { compare, encript } from "../utils/bcrypt.js";
 import { generateAccessToken } from "../utils/jwt.js";
 import { sendMail, sendMailForgotPassword } from "../utils/sendMail.js";
 import { v4 as tokenForgot } from 'uuid';
-
-const prisma = new PrismaClient();
+import { prisma } from "../app/database.js";
 
 const register = async (req, res, next) => {
     try {
@@ -27,7 +25,7 @@ const register = async (req, res, next) => {
         if (userExists) {
             if (userExists.isActive) {
                 throw new ResponseError(409, "Email has been registered and is active")
-            } else if (!userExists.isActive && Date.parse(userExists.expireTime) < new Date()) {
+            } else if (!userExists.isActive && new Date(userExists.expireTime).getTime() < Date.now()) {
                 throw new ResponseError(422, "Email has been registered and please check your email")
             } else {
                 await prisma.user.delete({
@@ -57,16 +55,16 @@ const register = async (req, res, next) => {
             }
         })
 
-        const email = await sendMail(result.name, result.email, result.id);
-        if (!email) {
-            throw new ResponseError(500, "Failed to send email");
-        } else {
-            res.status(201).json({
-                message: "User created, please check your email",
-                data: result
-            })
-            logger.info("User created, please check your email");
-        }
+        // const email = await sendMail(result.name, result.email, result.id);
+        // if (!email) {
+        //     throw new ResponseError(500, "Failed to send email");
+        // } else {
+        logger.info("User created, please check your email");
+        return res.status(201).json({
+            message: "User created, please check your email",
+            data: result
+        })
+        // }
     } catch (error) {
         logger.error(error.message);
         logger.error(error.stack);
@@ -115,11 +113,11 @@ const login = async (req, res, next) => {
                 token: true
             }
         })
-        res.status(200).json({
+        logger.info(`User logged in successfully: ${result.email}`);
+        return res.status(200).json({
             message: `User logged in successfully: ${result.email}`,
             data: result
         });
-        return logger.info(`User logged in successfully: ${result.email}`);
     } catch (error) {
         logger.error(`Error in login function: ${error.message}`);
         logger.error(error.stack);

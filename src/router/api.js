@@ -14,5 +14,8 @@ router.post('/api/logout', authentication, userController.logout);
 router.patch('/api-public/reset-password/:token', userController.resetPassword);
 
 
+router.use((req, res, next) => {
+    res.status(404).json({ errors: "Periksa lagi Endpoint nya mang salahan kayanya" })
+})
 
 export default router;

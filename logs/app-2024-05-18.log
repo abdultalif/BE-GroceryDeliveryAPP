@@ -1,0 +1,1917 @@
+ [LOGGER] 2024-05-18 06:46:11.645 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 06:46:11.713 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 06:47:35.196 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 06:47:35.301 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 06:53:33.922 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 06:53:34.035 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 06:53:34.235 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 06:53:34.238 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:16:43.239 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 08:16:43.242 AM ERROR : Error: Email has been registered and please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:31:23)
+ [LOGGER] 2024-05-18 08:17:47.868 AM ERROR : Date.now(...) is not a function
+ [LOGGER] 2024-05-18 08:17:47.872 AM ERROR : TypeError: Date.now(...) is not a function
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:102)
+ [LOGGER] 2024-05-18 08:17:51.282 AM ERROR : Date.now(...) is not a function
+ [LOGGER] 2024-05-18 08:17:51.283 AM ERROR : TypeError: Date.now(...) is not a function
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:102)
+ [LOGGER] 2024-05-18 08:18:13.408 AM ERROR : Date.now is not a constructor
+ [LOGGER] 2024-05-18 08:18:13.412 AM ERROR : TypeError: Date.now is not a constructor
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:92)
+ [LOGGER] 2024-05-18 08:18:15.440 AM ERROR : Date.now is not a constructor
+ [LOGGER] 2024-05-18 08:18:15.441 AM ERROR : TypeError: Date.now is not a constructor
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:28:92)
+ [LOGGER] 2024-05-18 08:18:35.035 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 08:18:35.041 AM ERROR : Error: Email has been registered and please check your email
+    at register (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:31:23)
+ [LOGGER] 2024-05-18 08:24:23.742 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 08:24:23.837 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:25:13.482 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 08:25:13.574 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:25:47.520 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 08:25:47.611 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 08:26:54.220 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 08:26:54.327 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 08:26:54.509 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 08:26:54.514 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:41:56.489 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 08:41:56.578 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 08:41:56.763 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 08:41:56.766 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:43:16.413 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 08:43:16.483 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 08:43:16.663 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 08:43:16.665 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:44:42.170 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 08:44:42.231 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:48:28.595 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 08:48:28.686 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 08:48:28.864 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 08:48:28.871 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:48:29.022 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 08:48:29.046 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:49:53.808 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 08:49:53.879 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 08:51:45.838 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 08:51:45.915 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:49:12.366 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 09:49:12.488 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 09:54:05.161 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 09:54:05.226 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:54:05.463 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 09:54:05.465 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:54:05.588 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 09:54:05.633 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 09:56:18.748 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 09:56:18.827 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:59:03.304 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 09:59:03.385 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 09:59:26.861 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 09:59:26.951 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:59:27.178 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 09:59:27.181 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:59:27.300 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 09:59:27.314 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 09:59:52.772 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 09:59:52.884 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 09:59:53.073 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 09:59:53.076 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:59:53.228 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 09:59:53.230 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:59:53.482 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 09:59:53.485 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:59:53.698 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 09:59:53.700 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 09:59:53.848 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 09:59:53.863 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:05:34.390 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:05:34.483 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:05:34.705 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:05:34.709 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:05:34.847 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 10:05:34.864 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:05:51.629 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 10:05:51.751 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:05:51.926 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 10:05:51.929 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:05:52.163 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 10:05:52.165 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:06:06.443 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 10:06:06.568 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:06:06.763 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 10:06:06.768 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:06:06.913 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 10:06:06.915 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:06:07.192 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:06:07.197 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:06:07.427 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:06:07.439 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:06:07.559 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 10:06:07.563 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:08:17.379 AM ERROR : Error in validToken function: Invalid Token Reset Password
+ [LOGGER] 2024-05-18 10:08:17.383 AM ERROR : Error: Invalid Token Reset Password
+    at validToken (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:197:32)
+ [LOGGER] 2024-05-18 10:16:56.655 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 10:16:56.714 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:16:56.848 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 10:16:56.924 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:16:57.184 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 10:16:57.186 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:16:57.361 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 10:16:57.363 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:16:57.699 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:16:57.702 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:16:57.937 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:16:57.940 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:16:58.064 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 10:16:58.069 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:27:58.054 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:27:58.104 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:27:58.330 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:27:58.332 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:27:58.459 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 10:27:58.497 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:30:18.522 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:30:18.620 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:30:18.884 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:30:18.886 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:30:19.046 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 10:30:19.097 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:30:48.672 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 10:30:48.737 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:30:48.975 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 10:30:48.982 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:30:49.139 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 10:30:49.141 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:30:49.527 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:30:49.531 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:30:49.773 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:30:49.775 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:30:49.903 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 10:30:49.907 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:32:14.904 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 10:32:14.985 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:32:15.157 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 10:32:15.159 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:32:15.302 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 10:32:15.304 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:32:15.673 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:32:15.674 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:32:15.903 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:32:15.906 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:32:16.047 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 10:32:16.051 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:33:52.375 AM ERROR : [object Object]
+ [LOGGER] 2024-05-18 10:33:52.457 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 10:33:52.589 AM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 10:33:52.591 AM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:33:52.704 AM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 10:33:52.705 AM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:33:53.027 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:33:53.028 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:33:53.215 AM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 10:33:53.217 AM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 10:33:53.347 AM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 10:33:53.352 AM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 01:27:10.845 PM ERROR : [object Object]
+ [LOGGER] 2024-05-18 01:27:10.932 PM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:13:44)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:11:15)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+ [LOGGER] 2024-05-18 01:27:11.103 PM ERROR : Email has been registered and please check your email
+ [LOGGER] 2024-05-18 01:27:11.113 PM ERROR : Error: Email has been registered and please check your email
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:29:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 01:27:11.314 PM ERROR : Email has been registered and is active
+ [LOGGER] 2024-05-18 01:27:11.318 PM ERROR : Error: Email has been registered and is active
+    at _callee$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:27:23)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 01:27:11.662 PM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 01:27:11.664 PM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:87:32)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 01:27:11.906 PM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-18 01:27:11.908 PM ERROR : Error: Email or Password Wrong
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:89:37)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+ [LOGGER] 2024-05-18 01:27:12.045 PM ERROR : Error in login function: [object Object]
+ [LOGGER] 2024-05-18 01:27:12.049 PM ERROR : Error: [object Object]
+    at validate (D:\belajar\gamelab\capstone project\src\validation\validation.js:24:15)
+    at _callee2$ (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:77:41)
+    at call (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator.tryCatch (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at Generator._invoke [as next] (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at asyncGeneratorStep (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at _next (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1)
+    at new Promise (<anonymous>)
+    at D:\belajar\gamelab\capstone project\src\controller\user-controller.js:2:1
+    at apply (D:\belajar\gamelab\capstone project\src\controller\user-controller.js:75:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at cors (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:188:7)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:214:15)
+    at D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\belajar\gamelab\capstone project\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\types\urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:328:13)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at D:\belajar\gamelab\capstone project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:238:16)
+    at done (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\belajar\gamelab\capstone project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
