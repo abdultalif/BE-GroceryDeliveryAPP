@@ -55,16 +55,16 @@ const register = async (req, res, next) => {
             }
         })
 
-        // const email = await sendMail(result.name, result.email, result.id);
-        // if (!email) {
-        //     throw new ResponseError(500, "Failed to send email");
-        // } else {
-        logger.info("User created, please check your email");
-        return res.status(201).json({
-            message: "User created, please check your email",
-            data: result
-        })
-        // }
+        const email = await sendMail(result.name, result.email, result.id);
+        if (!email) {
+            throw new ResponseError(500, "Failed to send email");
+        } else {
+            logger.info("User created, please check your email");
+            return res.status(201).json({
+                message: "User created, please check your email",
+                data: result
+            })
+        }
     } catch (error) {
         logger.error(error.message);
         logger.error(error.stack);

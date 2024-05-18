@@ -2,7 +2,12 @@ import supertest from "supertest";
 import { prisma } from "../src/app/database.js";
 import { app } from "../src/app/web.js";
 import { encript } from "../src/utils/bcrypt.js";
+import { sendMail, sendMailForgotPassword } from "../src/utils/sendMail.js";
 
+jest.mock('../src/utils/sendMail.js', () => ({
+    sendMailForgotPassword: jest.fn(),
+    sendMail: jest.fn(),
+}));
 
 describe('POST /api-public/register', () => {
 
@@ -13,6 +18,8 @@ describe('POST /api-public/register', () => {
     })
 
     it('should can register new user', async () => {
+
+        sendMail.mockResolvedValue(true);
         const result = await supertest(app)
             .post('/api-public/register')
             .send({
@@ -47,7 +54,8 @@ describe('POST /api-public/register', () => {
         expect(result.body.errors).toBeDefined();
     });
 
-    it('should return 422 if email registered but not activated and expired', async () => {
+    it('should return 422 if email has been registered and please check your email', async () => {
+
         let result = await supertest(app)
             .post('/api-public/register')
             .send({
@@ -110,6 +118,25 @@ describe('POST /api-public/register', () => {
 
         expect(result.status).toBe(409);
         expect(result.body.errors).toBe("Email has been registered and is active")
+    });
+
+
+    it('should return 500 if sendMails Fails', async () => {
+
+        sendMail.mockResolvedValue(false);
+
+        const result = await supertest(app)
+            .post('/api-public/register')
+            .send({
+                name: "Abdul Talif",
+                email: "abdultalif75@gmail.com",
+                no_telp: "081234567890",
+                password: "12345678",
+                confirmPassword: "12345678"
+            });
+
+        expect(result.status).toBe(500);
+        expect(result.body.errors).toBe("Failed to send email");
     });
 });
 
@@ -249,7 +276,57 @@ describe('POST api/logout', () => {
 });
 
 
-describe('POST api-public/forgot-password', () => {
+describe('POST /api-public/forgot-password', () => {
+
+    beforeAll(async () => {
+        await prisma.user.create({
+            data: {
+                name: "Abdul Talif",
+                email: "abdultalif75@gmail.com",
+                no_telp: "081234567890",
+                password: await encript("12345678"),
+                image: "default.jpg",
+                isActive: true,
+            }
+        });
+    });
+
+    afterAll(async () => {
+        await prisma.user.deleteMany({
+            where: { email: "abdultalif75@gmail.com" }
+        });
+    });
+
+
+    it('should return 404 if email is not exist', async () => {
+        const result = await supertest(app)
+            .post('/api-public/forgot-password')
+            .send({
+                email: "salah@gmail.com"
+            })
+
+        expect(result.status).toBe(404);
+        expect(result.body.errors).toBe("Email not found");
+    });
+
+
+    it('should return 500 if sending email fails', async () => {
+
+        // jika tidak menggunakan function tiruan dari mock ini digunakan 
+        // jest.spyOn(sendMailForgotPassword, 'sendMailForgotPassword').mockImplementation(() => Promise.resolve(false))
+
+        sendMailForgotPassword.mockResolvedValue(false);
+        const result = await supertest(app)
+            .post('/api-public/forgot-password')
+            .send({ email: "abdultalif75@gmail.com" })
+
+        expect(result.status).toBe(500);
+        expect(result.body.errors).toBe("Failed to send email");
+
+        // sendMailForgotPassword.sendMailForgotPassword.mockRestore();
+    });
+
+
     it('should return 400 if request is invalid', async () => {
         const result = await supertest(app)
             .post('/api-public/forgot-password')
@@ -259,6 +336,28 @@ describe('POST api-public/forgot-password', () => {
 
         expect(result.status).toBe(400);
         expect(result.body.errors).toBeDefined();
+    });
+
+    it('should return 200 if request is valid', async () => {
+
+        sendMailForgotPassword.mockResolvedValue(true);
+
+        const result = await supertest(app)
+            .post('/api-public/forgot-password')
+            .send({
+                email: "abdultalif75@gmail.com"
+            });
+
+        expect(result.status).toBe(200);
+        expect(result.body.message).toBe("Please check your email: abdultalif75@gmail.com");
+        expect(result.body.data).toBeNull();
+
+        const user = await prisma.user.findFirst({
+            where: { email: "abdultalif75@gmail.com" },
+            select: { tokenReset: true }
+        });
+
+        expect(user.tokenReset).toBeTruthy()
     });
 
 });
@@ -382,7 +481,7 @@ describe('POST api-public/reset-password/:token', () => {
         expect(result.body.errors).toBe("Token invalid or token expired");
     });
 
-    it('should return 200 if token is invalid or expired', async () => {
+    it('should return 200 if token is valid and password is changed', async () => {
         const result = await supertest(app)
             .patch('/api-public/reset-password/token-valid123')
             .send({
