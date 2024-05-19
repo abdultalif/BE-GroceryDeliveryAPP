@@ -7,6 +7,7 @@ const router = express.Router();
 
 // Auth
 router.post('/api-public/register', userController.register);
+router.get('/api-public/set-activate/:email/:userId', userController.setActivateUser);
 router.post('/api-public/login', userController.login);
 router.post('/api-public/forgot-password', userController.forgotPassword);
 router.get('/api-public/valid-token/:token', userController.validToken);

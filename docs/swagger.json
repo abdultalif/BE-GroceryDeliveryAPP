@@ -322,6 +322,77 @@
                 }
             }
         },
+        "/api-public/set-activate/{email}/{userId}": {
+            "get": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "API untuk activated user",
+                "description": "API ini digunakan ketika user ingin meng-aktifkan akun",
+                "parameters": [
+                    {
+                        "name": "Id User",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Id User",
+                            "example": "868223d1-03f2-40d1-ba7d-0bb02223bbb9"
+                        },
+                        "description": "Id User"
+                    },
+                    {
+                        "name": "Email",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Email",
+                            "example": "abdultalif75@gmail.com"
+                        },
+                        "description": "Email"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "User abdultalif75@gmail.com Activated"
+                                        },
+                                        "data": {
+                                            "type": null,
+                                            "example": null
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "errors": {
+                                            "type": "object",
+                                            "example": "User Not Found"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "/api-public/forgot-password": {
             "post": {
                 "tags": [

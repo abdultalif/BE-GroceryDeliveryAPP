@@ -15,7 +15,7 @@ const createEmail = (name, email, token) => {
     return {
         from: process.env.MAIL_FROM,
         to: email,
-        subject: "Pizza21: Verify Your Email",
+        subject: "Grocery Delivery APP: Verify Your Email",
         html:
             `
             <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate;width:100%;background-color:#f6f6f6" width="100%" bgcolor="#f6f6f6">
@@ -34,12 +34,12 @@ const createEmail = (name, email, token) => {
                                                         <tr>
                                                             <td style="font-family:sans-serif;font-size:14px;vertical-align:top" valign="top">
                                                                 <p style="font-family:sans-serif;font-size:14px;font-weight:normal;Margin:0;Margin-bottom:15px">Hi ${name},</p>
-                                                                <p style="font-family:sans-serif;font-size:14px;font-weight:normal;Margin:0;Margin-bottom:15px">Thanks for signing up for Pizza21!  We want to make sure that we got your email right.</p>
+                                                                <p style="font-family:sans-serif;font-size:14px;font-weight:normal;Margin:0;Margin-bottom:15px">Thanks for signing up for Grocery Delivery APP!  We want to make sure that we got your email right.</p>
                                                                 <p style="font-family:sans-serif;font-size:14px;font-weight:normal;Margin:0;Margin-bottom:15px">Please verify your email by clicking the link below:</p>
-                                                                <p><a style="color:#0079f2;text-decoration:none;font-weight:bold" href="http://127.0.0.1:5500/activate.html?email=${email}&token=${token}" target="_blank">Verify Now</a></p>
+                                                                <p><a style="color:#0079f2;text-decoration:none;font-weight:bold" href="http://127.0.0.1:5173/${email}/${token}" target="_blank">Verify Now</a></p>
                                                                 <p>If you can't click on the link, copy and paste the following URL into a new tab in your browser:</p>
-                                                                <p><a href="http://127.0.0.1:5500/activate.html?email=${email}&token=${token}" target="_blank">http://127.0.0.1:5500/activate.html?email=${email}&token=${token}</a></p>
-                                                                <p>Happy coding!</p>
+                                                                <p><a href="http://127.0.0.1:5173/${email}/${token}" target="_blank">http://127.0.0.1:5173/${email}/${token} (url ini nanti diganti gmn frontend nya)</a></p>
+                                                                <p>Happy Shopping!</p>
                                                             </td>
                                                         </tr>
                                                     </tbody>
@@ -60,7 +60,7 @@ const createEmailForgotPassword = (name, email, token) => {
     return {
         from: process.env.MAIL_FROM,
         to: email,
-        subject: "Pizza21: Password Reset",
+        subject: "Grocery Delivery APP: Password Reset",
         html:
             `
             <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate;width:100%;background-color:#f6f6f6" width="100%" bgcolor="#f6f6f6">
@@ -79,12 +79,12 @@ const createEmailForgotPassword = (name, email, token) => {
                                                         <tr>
                                                             <td style="font-family:sans-serif;font-size:14px;vertical-align:top" valign="top">
                                                                 <p style="font-family:sans-serif;font-size:14px;font-weight:normal;Margin:0;Margin-bottom:15px">Hi ${name},</p>
-                                                                <p style="font-family:sans-serif;font-size:14px;font-weight:normal;Margin:0;Margin-bottom:15px">You have requested to reset your password for Pizza21. Please follow the link below to reset your password:</p>
-                                                                <p><a style="color:#0079f2;text-decoration:none;font-weight:bold" href="http://127.0.0.1:5500/reset-password.html?token=${token}" target="_blank">Reset Password</a></p>
+                                                                <p style="font-family:sans-serif;font-size:14px;font-weight:normal;Margin:0;Margin-bottom:15px">You have requested to reset your password for Grocery Delivery APP. Please follow the link below to reset your password:</p>
+                                                                <p><a style="color:#0079f2;text-decoration:none;font-weight:bold" href="http://127.0.0.1:5173/${token}" target="_blank">Reset Password</a></p>
                                                                 <p style="color:red; font-weight:bold; Margin:0; Margin-bottom:15px">Note: This link is valid for 30 minutes. If not used within this time, the token will expire.</p>
                                                                 <p>If you didn't request a password reset, please ignore this email.</p>
                                                                 <p>If you can't click on the link, copy and paste the following URL into a new tab in your browser:</p>
-                                                                <p><a href="http://127.0.0.1:5500/reset-password.html?token=${token}" target="_blank">http://127.0.0.1:5500/reset-password.html?token=${token}</a></p>
+                                                                <p><a href="http://127.0.0.1:5173/${token}" target="_blank">http://127.0.0.1:5173/${token} (url ini nanti diganti gmn frontend nya)</a></p>
                                                                 <p>Thank you!</p>
                                                             </td>
                                                         </tr>

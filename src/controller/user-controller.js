@@ -25,7 +25,7 @@ const register = async (req, res, next) => {
         if (userExists) {
             if (userExists.isActive) {
                 throw new ResponseError(409, "Email has been registered and is active")
-            } else if (!userExists.isActive && new Date(userExists.expireTime).getTime() < Date.now()) {
+            } else if (!userExists.isActive && new Date(userExists.expireTime).getTime() > Date.now()) {
                 throw new ResponseError(422, "Email has been registered and please check your email")
             } else {
                 await prisma.user.delete({
@@ -42,7 +42,7 @@ const register = async (req, res, next) => {
                 password: password,
                 no_telp: userRegister.no_telp,
                 image: 'default.jpg',
-                expireTime: new Date()
+                expireTime: new Date(Date.now() + (60000 * 60))
             },
             select: {
                 id: true,
@@ -72,6 +72,45 @@ const register = async (req, res, next) => {
     }
 }
 
+const setActivateUser = async (req, res, next) => {
+    try {
+        const { email, userId } = req.params;
+
+        const userActivateExists = await prisma.user.findFirst({
+            where: {
+                id: userId,
+                email: email,
+                isActive: false,
+            }
+        });
+
+        if (!userActivateExists) {
+            throw new ResponseError(404, 'User not found');
+        } else {
+            const userActivate = await prisma.user.update({
+                where: {
+                    id: userId,
+                    email: email
+                },
+                data: {
+                    isActive: true,
+                    expireTime: null
+                }
+            })
+            res.status(200).json({
+                message: `User ${userActivate.email} Activated`,
+                data: null
+            });
+            logger.info(`User ${userActivate.email} Activated`);
+        }
+    } catch (error) {
+        logger.error(`Error in setActivateUser function: ${error.message}`);
+        logger.error(error.stack);
+        next(error);
+    }
+};
+
+
 const login = async (req, res, next) => {
     try {
         const userLogin = await validate(loginValidation, req.body)
@@ -83,11 +122,13 @@ const login = async (req, res, next) => {
                 password: true,
                 name: true,
                 no_telp: true,
-                image: true
+                image: true,
+                isActive: true
             }
         });
 
         if (!userExists) throw new ResponseError(401, "Email or Password Wrong");
+        if (!userExists.isActive) throw new ResponseError(403, "User not active");
         const isPasswordValid = await compare(userLogin.password, userExists.password);
         if (!isPasswordValid) throw new ResponseError(401, "Email or Password Wrong");
 
@@ -251,6 +292,7 @@ const resetPassword = async (req, res, next) => {
 
 export default {
     register,
+    setActivateUser,
     login,
     logout,
     forgotPassword,

@@ -54,9 +54,21 @@ describe('POST /api-public/register', () => {
         expect(result.body.errors).toBeDefined();
     });
 
-    it('should return 422 if email has been registered and please check your email', async () => {
 
-        let result = await supertest(app)
+    it('should return 422 if email is already registered and inactive but not expired', async () => {
+        await prisma.user.create({
+            data: {
+                name: "Abdul Talif",
+                email: "abdultalif75@gmail.com",
+                no_telp: "081234567890",
+                password: await encript("12345678"),
+                image: "default.jpg",
+                isActive: false,
+                expireTime: new Date(Date.now() + (60000 * 60))
+            }
+        });
+
+        const result = await supertest(app)
             .post('/api-public/register')
             .send({
                 name: "Abdul Talif",
@@ -66,29 +78,7 @@ describe('POST /api-public/register', () => {
                 confirmPassword: "12345678"
             });
 
-        expect(result.status).toBe(201);
-        expect(result.body.message).toBe("User created, please check your email");
-        expect(result.body.data.name).toBe("Abdul Talif");
-        expect(result.body.data.email).toBe("abdultalif75@gmail.com");
-        expect(result.body.data.no_telp).toBe("081234567890");
-        expect(result.body.data.password).toBeUndefined();
-
-        await prisma.user.update({
-            where: { email: "abdultalif75@gmail.com" },
-            data: { expireTime: new Date(Date.now() - 10000) }
-        })
-
-        result = await supertest(app)
-            .post('/api-public/register')
-            .send({
-                name: "Abdul Talif",
-                email: "abdultalif75@gmail.com",
-                no_telp: "081234567890",
-                password: "12345678",
-                confirmPassword: "12345678"
-            });
-
-        expect(result.status).toBe(422)
+        expect(result.status).toBe(422);
         expect(result.body.errors).toBe("Email has been registered and please check your email");
     });
 
@@ -141,6 +131,55 @@ describe('POST /api-public/register', () => {
 });
 
 
+describe('GET /api-public/set-activate/:email/:userId', () => {
+
+    beforeAll(async () => {
+        await prisma.user.create({
+            data: {
+                id: "18b799c8-05b3-4655-b7b3-1f52f4d5763d",
+                name: "Abdul Talif",
+                email: "abdultalif75@gmail.com",
+                password: await encript("12345678"),
+                no_telp: "081234567890",
+                image: "default.jpg",
+                isActive: false,
+                expireTime: new Date(Date.now() + (60000 * 60))
+            }
+        });
+    });
+
+    afterAll(async () => {
+        await prisma.user.deleteMany({
+            where: { email: "abdultalif75@gmail.com" }
+        });
+    });
+
+
+    it('should activate the user if valid userId and email are provided', async () => {
+        const result = await supertest(app)
+            .get('/api-public/set-activate/abdultalif75@gmail.com/18b799c8-05b3-4655-b7b3-1f52f4d5763d');
+
+        expect(result.status).toBe(200);
+        expect(result.body.message).toBe("User abdultalif75@gmail.com Activated");
+
+        const user = await prisma.user.findFirst({
+            where: { email: "abdultalif75@gmail.com" }
+        });
+        expect(user.isActive).toBe(true);
+        expect(user.expireTime).toBeNull();
+    });
+
+    it('should return 404 if the user is not found or already active', async () => {
+        const result = await supertest(app)
+            .get('/api-public/set-activate/wrong@gmail.com/userId-not-found');
+
+        expect(result.status).toBe(404);
+        expect(result.body.errors).toBe("User not found");
+    });
+
+});
+
+
 
 
 describe('POST /api-public/login', () => {
@@ -153,7 +192,6 @@ describe('POST /api-public/login', () => {
                 password: await encript("12345678"),
                 image: "default.jpg",
                 isActive: true,
-                expireTime: new Date(Date.now() + 3600000)
             }
         })
     })
@@ -215,6 +253,25 @@ describe('POST /api-public/login', () => {
 
         expect(result.status).toBe(400);
         expect(result.body.errors).toBeDefined();
+    });
+
+    it('should return 403 if user is not active', async () => {
+
+        await prisma.user.update({
+            where: { email: "abdultalif75@gmail.com" },
+            data: { isActive: false }
+        });
+
+        const result = await supertest(app)
+            .post('/api-public/login')
+            .send({
+                email: "abdultalif75@gmail.com",
+                password: "12345678"
+            })
+
+        expect(result.status).toBe(403);
+        expect(result.body.errors).toBe("User not active")
+
     });
 
 });
@@ -361,13 +418,6 @@ describe('POST /api-public/forgot-password', () => {
     });
 
 });
-
-
-
-
-
-
-
 
 
 
