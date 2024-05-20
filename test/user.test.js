@@ -1,6 +1,6 @@
 import supertest from "supertest";
-import { prisma } from "../src/app/database.js";
-import { app } from "../src/app/web.js";
+import { prisma } from "../src/utils/database.js";
+import { app } from "../src/utils/web.js";
 import { encript } from "../src/utils/bcrypt.js";
 import { sendMail, sendMailForgotPassword } from "../src/utils/sendMail.js";
 

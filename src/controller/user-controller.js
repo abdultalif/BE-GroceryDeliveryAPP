@@ -1,4 +1,4 @@
-import logger from "../app/logging.js";
+import logger from "../utils/logging.js";
 import { forgotPasswordValidation, loginValidation, registerValidation, resetPasswordValidation } from "../validation/user-validation.js";
 import { validate } from "../validation/validation.js";
 import { ResponseError } from "../error/response-error.js";
@@ -6,7 +6,7 @@ import { compare, encript } from "../utils/bcrypt.js";
 import { generateAccessToken } from "../utils/jwt.js";
 import { sendMail, sendMailForgotPassword } from "../utils/sendMail.js";
 import { v4 as tokenForgot } from 'uuid';
-import { prisma } from "../app/database.js";
+import { prisma } from "../utils/database.js";
 
 const register = async (req, res, next) => {
     try {

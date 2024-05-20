@@ -1,9 +1,9 @@
 import jsonWebToken from "jsonwebtoken";
-import dotenv from "dotenv/config";
+import { JWTEpiresIn, JWTSecret } from "./environment.js";
 
 const generateAccessToken = user => {
-    return jsonWebToken.sign(user, process.env.JWT_SECERET, {
-        expiresIn: process.env.JWT_EXPIRES_IN || '1800s',
+    return jsonWebToken.sign(user, JWTSecret, {
+        expiresIn: JWTEpiresIn || '1800s',
     });
 };
 
@@ -13,7 +13,7 @@ const parseJWT = token => {
 
 const verifyAccessToken = token => {
     try {
-        return jsonWebToken.verify(token, process.env.JWT_SECERET);
+        return jsonWebToken.verify(token, JWTSecret);
     } catch (error) {
         return null;
     }

@@ -1,19 +1,18 @@
 import nodemailer from "nodemailer";
-import dotenv from "dotenv/config";
+import { mailFrom, mailPassword, mailService, mailUser } from "./environment.js";
 
-// const baseUrl = process.env.BASE_URL;
 
 const transporter = nodemailer.createTransport({
-    service: process.env.MAIL_SERVICE,
+    service: mailService,
     auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASSWORD
+        user: mailUser,
+        pass: mailPassword
     }
 });
 
 const createEmail = (name, email, token) => {
     return {
-        from: process.env.MAIL_FROM,
+        from: mailFrom,
         to: email,
         subject: "Grocery Delivery APP: Verify Your Email",
         html:
@@ -58,7 +57,7 @@ const createEmail = (name, email, token) => {
 };
 const createEmailForgotPassword = (name, email, token) => {
     return {
-        from: process.env.MAIL_FROM,
+        from: mailFrom,
         to: email,
         subject: "Grocery Delivery APP: Password Reset",
         html:
