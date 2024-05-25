@@ -1,0 +1,327 @@
+ [LOGGER] 2024-05-25 11:38:07.717 AM ERROR : Erro in get carts function: 
+Invalid `prisma.cart.findMany()` invocation:
+
+{
+  include: {
+  ~~~~~~~
+    user: true,
+    Product: true
+  },
+  select: {
+  ~~~~~~
+    id: true,
+    quantity: true,
+    total: true
+  }
+}
+
+Please either use `include` or `select`, but not both at the same time.
+ [LOGGER] 2024-05-25 11:38:07.721 AM ERROR : PrismaClientValidationError: 
+Invalid `prisma.cart.findMany()` invocation:
+
+{
+  include: {
+  ~~~~~~~
+    user: true,
+    Product: true
+  },
+  select: {
+  ~~~~~~
+    id: true,
+    quantity: true,
+    total: true
+  }
+}
+
+Please either use `include` or `select`, but not both at the same time.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at e.throwValidationError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:11245)
+    at Vm (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:7976)
+    at Yi (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:7928)
+    at Za (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:7775)
+    at D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11692
+    at Object.runInChildSpan (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:1439)
+    at r._executeRequest (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11671)
+    at ta (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:31:5409)
+    at l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11173)
+ [LOGGER] 2024-05-25 11:39:17.645 AM ERROR : Erro in get carts function: 
+Invalid `prisma.cart.findMany()` invocation:
+
+{
+  include: {
+  ~~~~~~~
+    user: true,
+    Product: true
+  },
+  select: {
+  ~~~~~~
+    id: true,
+    quantity: true,
+    user: {
+      select: {
+        name: true,
+        email: true
+      }
+    },
+    menu: {
+      select: {
+        name: true,
+        price: true
+      }
+    }
+  }
+}
+
+Please either use `include` or `select`, but not both at the same time.
+ [LOGGER] 2024-05-25 11:39:17.651 AM ERROR : PrismaClientValidationError: 
+Invalid `prisma.cart.findMany()` invocation:
+
+{
+  include: {
+  ~~~~~~~
+    user: true,
+    Product: true
+  },
+  select: {
+  ~~~~~~
+    id: true,
+    quantity: true,
+    user: {
+      select: {
+        name: true,
+        email: true
+      }
+    },
+    menu: {
+      select: {
+        name: true,
+        price: true
+      }
+    }
+  }
+}
+
+Please either use `include` or `select`, but not both at the same time.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at e.throwValidationError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:11245)
+    at Vm (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:7976)
+    at Yi (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:7928)
+    at Za (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:7775)
+    at D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11692
+    at Object.runInChildSpan (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:1439)
+    at r._executeRequest (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11671)
+    at ta (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:31:5409)
+    at l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11173)
+ [LOGGER] 2024-05-25 11:41:37.360 AM ERROR : Erro in get carts function: 
+Invalid `prisma.cart.findMany()` invocation:
+
+
+Unknown nested field 'menu' for operation findManyCart does not match any query.
+ [LOGGER] 2024-05-25 11:41:37.362 AM ERROR : PrismaClientUnknownRequestError: 
+Invalid `prisma.cart.findMany()` invocation:
+
+
+Unknown nested field 'menu' for operation findManyCart does not match any query.
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:7067)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async getCarts (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:15:23)
+ [LOGGER] 2024-05-25 11:42:52.538 AM ERROR : Erro in get carts function: 
+Invalid `prisma.cart.findMany()` invocation:
+
+
+Unknown nested field 'menu' for operation findManyCart does not match any query.
+ [LOGGER] 2024-05-25 11:42:52.541 AM ERROR : PrismaClientUnknownRequestError: 
+Invalid `prisma.cart.findMany()` invocation:
+
+
+Unknown nested field 'menu' for operation findManyCart does not match any query.
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:7067)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async getCarts (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:15:23)
+ [LOGGER] 2024-05-25 12:04:27.093 PM ERROR : Erro in get carts function: Cannot read properties of undefined (reading 'id')
+ [LOGGER] 2024-05-25 12:04:27.097 PM ERROR : TypeError: Cannot read properties of undefined (reading 'id')
+    at getCarts (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:16:39)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:47:12)
+ [LOGGER] 2024-05-25 12:05:06.931 PM ERROR : Error in login function: User not active
+ [LOGGER] 2024-05-25 12:05:06.933 PM ERROR : Error: User not active
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:131:41)
+ [LOGGER] 2024-05-25 12:05:23.453 PM ERROR : Error in login function: Email or Password Wrong
+ [LOGGER] 2024-05-25 12:05:23.454 PM ERROR : Error: Email or Password Wrong
+    at login (file:///D:/belajar/gamelab/capstone%20project/src/controller/user-controller.js:133:37)
+ [LOGGER] 2024-05-25 01:00:08.516 PM ERROR : Error in create cart function: validate is not defined
+ [LOGGER] 2024-05-25 01:00:08.517 PM ERROR : ReferenceError: validate is not defined
+    at createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:8:58)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at authentication (file:///D:/belajar/gamelab/capstone%20project/src/middleware/auth-middleware.js:15:5)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:346:12)
+ [LOGGER] 2024-05-25 01:00:27.494 PM ERROR : Error in create cart function: 
+Invalid `prisma.cart.findFirst()` invocation:
+
+
+Unknown nested field 'product' for operation findFirstCart does not match any query.
+ [LOGGER] 2024-05-25 01:00:27.497 PM ERROR : PrismaClientUnknownRequestError: 
+Invalid `prisma.cart.findFirst()` invocation:
+
+
+Unknown nested field 'product' for operation findFirstCart does not match any query.
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:7067)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:11:28)
+ [LOGGER] 2024-05-25 01:02:26.503 PM ERROR : Error in create cart function: [object Object]
+ [LOGGER] 2024-05-25 01:02:26.505 PM ERROR : Error: [object Object]
+    at validate (file:///D:/belajar/gamelab/capstone%20project/src/validation/validation.js:24:15)
+    at createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:9:61)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at authentication (file:///D:/belajar/gamelab/capstone%20project/src/middleware/auth-middleware.js:15:5)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\belajar\gamelab\capstone project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\belajar\gamelab\capstone project\node_modules\express\lib\router\index.js:284:15
+ [LOGGER] 2024-05-25 01:04:32.595 PM ERROR : Error in create cart function: 
+Invalid `prisma.cart.findFirst()` invocation:
+
+
+Unknown nested field 'product' for operation findFirstCart does not match any query.
+ [LOGGER] 2024-05-25 01:04:32.597 PM ERROR : PrismaClientUnknownRequestError: 
+Invalid `prisma.cart.findFirst()` invocation:
+
+
+Unknown nested field 'product' for operation findFirstCart does not match any query.
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:7067)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:11:28)
+ [LOGGER] 2024-05-25 01:05:29.543 PM ERROR : Error in create cart function: 
+Invalid `prisma.cart.findFirst()` invocation:
+
+{
+  where: {
+    productId: "06507f9d-24d3-482f-bc6b-5e3b4bc5c38e",
+    userId: "914c4f1c-1285-4fef-b8a7-68e8107df0b1"
+  },
+  include: {
+    product: true,
+    ~~~~~~~
+?   user?: true,
+?   Product?: true
+  }
+}
+
+Unknown field `product` for include statement on model `Cart`. Available options are marked with ?.
+ [LOGGER] 2024-05-25 01:05:29.547 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.cart.findFirst()` invocation:
+
+{
+  where: {
+    productId: "06507f9d-24d3-482f-bc6b-5e3b4bc5c38e",
+    userId: "914c4f1c-1285-4fef-b8a7-68e8107df0b1"
+  },
+  include: {
+    product: true,
+    ~~~~~~~
+?   user?: true,
+?   Product?: true
+  }
+}
+
+Unknown field `product` for include statement on model `Cart`. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:11:28)
+ [LOGGER] 2024-05-25 01:06:09.382 PM ERROR : Error in create cart function: 
+Invalid `prisma.cart.create()` invocation:
+
+{
+  productId: "06507f9d-24d3-482f-bc6b-5e3b4bc5c38e",
+  ~~~~~~~~~
+  total: 19000,
+  quantity: 9,
+  userId: "914c4f1c-1285-4fef-b8a7-68e8107df0b1",
+? data?: CartCreateInput | CartUncheckedCreateInput
+}
+
+Unknown argument `productId`. Available options are marked with ?.
+ [LOGGER] 2024-05-25 01:06:09.385 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.cart.create()` invocation:
+
+{
+  productId: "06507f9d-24d3-482f-bc6b-5e3b4bc5c38e",
+  ~~~~~~~~~
+  total: 19000,
+  quantity: 9,
+  userId: "914c4f1c-1285-4fef-b8a7-68e8107df0b1",
+? data?: CartCreateInput | CartUncheckedCreateInput
+}
+
+Unknown argument `productId`. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:44:28)
+ [LOGGER] 2024-05-25 01:07:12.864 PM ERROR : Error in create cart function: Cannot read properties of undefined (reading 'price')
+ [LOGGER] 2024-05-25 01:07:12.865 PM ERROR : TypeError: Cannot read properties of undefined (reading 'price')
+    at createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:33:91)
+ [LOGGER] 2024-05-25 01:08:04.158 PM ERROR : Error in create cart function: Cannot read properties of undefined (reading 'price')
+ [LOGGER] 2024-05-25 01:08:04.162 PM ERROR : TypeError: Cannot read properties of undefined (reading 'price')
+    at createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:34:91)
+ [LOGGER] 2024-05-25 01:10:14.706 PM ERROR : Error in create cart function: 
+Invalid `prisma.cart.findFirst()` invocation:
+
+
+Unknown nested field 'product' for operation findFirstCart does not match any query.
+ [LOGGER] 2024-05-25 01:10:14.737 PM ERROR : PrismaClientUnknownRequestError: 
+Invalid `prisma.cart.findFirst()` invocation:
+
+
+Unknown nested field 'product' for operation findFirstCart does not match any query.
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:7067)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:11:28)
+ [LOGGER] 2024-05-25 01:12:35.496 PM ERROR : Error in create cart function: Cannot read properties of undefined (reading 'price')
+ [LOGGER] 2024-05-25 01:12:35.497 PM ERROR : TypeError: Cannot read properties of undefined (reading 'price')
+    at createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:41:91)
+ [LOGGER] 2024-05-25 01:16:30.756 PM ERROR : Error in create cart function: 
+Invalid `prisma.cart.create()` invocation:
+
+
+Foreign key constraint failed on the field: `productId`
+ [LOGGER] 2024-05-25 01:16:30.758 PM ERROR : PrismaClientKnownRequestError: 
+Invalid `prisma.cart.create()` invocation:
+
+
+Foreign key constraint failed on the field: `productId`
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6877)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:52:28)

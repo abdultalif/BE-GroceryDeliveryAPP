@@ -27,5 +27,37 @@ model User {
   createdAt  DateTime  @default(now())
   updatedAt  DateTime  @updatedAt
 
+  carts Cart[]
+
   @@map("users")
+}
+
+model Product {
+  id          String   @id @default(uuid())
+  name        String   @db.VarChar(100)
+  image       String   @db.VarChar(100)
+  stok        Int
+  price       Int
+  category    String   @db.VarChar(100)
+  description String?  @db.Text()
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  carts Cart[]
+
+  @@map("products")
+}
+
+model Cart {
+  id        String   @id @default(uuid())
+  quantity  Int
+  total     Int
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  productId String
+  Product   Product  @relation(fields: [productId], references: [id])
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("carts")
 }

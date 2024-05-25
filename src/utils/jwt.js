@@ -3,7 +3,7 @@ import { JWTEpiresIn, JWTSecret } from "./environment.js";
 
 const generateAccessToken = user => {
     return jsonWebToken.sign(user, JWTSecret, {
-        expiresIn: JWTEpiresIn || '1800s',
+        expiresIn: JWTEpiresIn || '7200s',
     });
 };
 

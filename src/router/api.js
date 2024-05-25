@@ -1,6 +1,7 @@
 import express from 'express';
 import userController from '../controller/user-controller.js';
 import { authentication } from '../middleware/auth-middleware.js';
+import cartController from '../controller/cart-controller.js';
 
 const router = express.Router();
 
@@ -13,6 +14,9 @@ router.post('/api-public/forgot-password', userController.forgotPassword);
 router.get('/api-public/valid-token/:token', userController.validToken);
 router.post('/api/logout', authentication, userController.logout);
 router.patch('/api-public/reset-password/:token', userController.resetPassword);
+
+router.get('/api/carts', authentication, cartController.getCarts);
+router.post('/api/carts', authentication, cartController.createCart);
 
 
 router.use((req, res, next) => {
