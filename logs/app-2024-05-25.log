@@ -325,3 +325,126 @@ Foreign key constraint failed on the field: `productId`
     at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
     at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
     at async createCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:52:28)
+ [LOGGER] 2024-05-25 04:41:28.484 PM ERROR : Error in delete cart function 
+Invalid `prisma.cart.findUnique()` invocation:
+
+{
+  0: "7",
+  ~
+  1: "3",
+  2: "2",
+  3: "4",
+  4: "b",
+  5: "6",
+  6: "8",
+  7: "5",
+  8: "-",
+  9: "1",
+  10: "3",
+  11: "b",
+  12: "8",
+  13: "-",
+  14: "4",
+  15: "6",
+  16: "1",
+  17: "9",
+  18: "-",
+  19: "9",
+  20: "e",
+  21: "d",
+  22: "2",
+  23: "-",
+  24: "9",
+  25: "b",
+  26: "6",
+  27: "6",
+  28: "6",
+  29: "3",
+  30: "4",
+  31: "f",
+  32: "5",
+  33: "9",
+  34: "3",
+  35: "2",
+? where?: CartWhereUniqueInput
+}
+
+Unknown argument `0`. Available options are marked with ?.
+ [LOGGER] 2024-05-25 04:41:28.494 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.cart.findUnique()` invocation:
+
+{
+  0: "7",
+  ~
+  1: "3",
+  2: "2",
+  3: "4",
+  4: "b",
+  5: "6",
+  6: "8",
+  7: "5",
+  8: "-",
+  9: "1",
+  10: "3",
+  11: "b",
+  12: "8",
+  13: "-",
+  14: "4",
+  15: "6",
+  16: "1",
+  17: "9",
+  18: "-",
+  19: "9",
+  20: "e",
+  21: "d",
+  22: "2",
+  23: "-",
+  24: "9",
+  25: "b",
+  26: "6",
+  27: "6",
+  28: "6",
+  29: "3",
+  30: "4",
+  31: "f",
+  32: "5",
+  33: "9",
+  34: "3",
+  35: "2",
+? where?: CartWhereUniqueInput
+}
+
+Unknown argument `0`. Available options are marked with ?.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async deleteCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:110:27)
+ [LOGGER] 2024-05-25 04:47:18.301 PM ERROR : Error in delete cart function Cart not found
+ [LOGGER] 2024-05-25 04:47:18.304 PM ERROR : Error: Cart not found
+    at deleteCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:115:31)
+ [LOGGER] 2024-05-25 05:10:17.739 PM ERROR : Error in update cart function: 
+Invalid `prisma.cart.findUnique()` invocation:
+
+{
+  where: "72051c52-f15c-4600-925d-c5e10369f7ff"
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
+
+Argument `where`: Invalid value provided. Expected CartWhereUniqueInput, provided String.
+ [LOGGER] 2024-05-25 05:10:17.742 PM ERROR : PrismaClientValidationError: 
+Invalid `prisma.cart.findUnique()` invocation:
+
+{
+  where: "72051c52-f15c-4600-925d-c5e10369f7ff"
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}
+
+Argument `where`: Invalid value provided. Expected CartWhereUniqueInput, provided String.
+    at Tn (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6533)
+    at In.handleAndLogRequestError (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:6211)
+    at In.request (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:122:5919)
+    at async l (D:\belajar\gamelab\capstone project\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async updateCart (file:///D:/belajar/gamelab/capstone%20project/src/controller/cart-controller.js:136:27)

@@ -17,6 +17,8 @@ router.patch('/api-public/reset-password/:token', userController.resetPassword);
 
 router.get('/api/carts', authentication, cartController.getCarts);
 router.post('/api/carts', authentication, cartController.createCart);
+router.put('/api/carts/:cartId', authentication, cartController.updateCart);
+router.delete('/api/carts/:cartId', authentication, cartController.deleteCart);
 
 
 router.use((req, res, next) => {
